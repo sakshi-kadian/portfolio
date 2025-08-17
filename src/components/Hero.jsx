@@ -6,7 +6,7 @@ const Hero = () => {
           Hey, I’m <span className="text-[1.15em] sm:text-[1.2em]">Sakshi</span>
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-[#A98D8D] max-w-2xl mx-auto italic">
-          A creative Frontend Developer & UI/UX Designer crafting meaningful digital experiences that blend intuitive design with powerful code.
+          A passionate Full-Stack Developer & UI/UX Designer crafting meaningful digital experiences that blend intuitive design with powerful code.
         </p>
       </div>
     </section>
