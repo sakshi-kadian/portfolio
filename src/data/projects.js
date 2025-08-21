@@ -1,4 +1,11 @@
 const projects = [
+    {
+    name: "Wonders in the Wind",
+    desc: "An interactive web experience showcasing the seven wonders of the world with dynamic animations and responsive design to enhance user engagement.",
+    tech: "React, Tailwind CSS, Framer Motion",
+    link: "https://wonders-in-the-wind.onrender.com",
+    image: "/images/wonders.JPG",
+  },
   {
     name: "Wishique",
     desc: "A curated multi-vendor marketplace with buyer and seller flows, built using the MERN stack for seamless e-commerce experiences.",
