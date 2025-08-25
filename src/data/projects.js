@@ -1,5 +1,12 @@
 const projects = [
-    {
+  {
+    name: "UniConnect",
+    desc: "A responsive web app helping students discover universities worldwide, with dynamic search, filters, sorting, and Supabase-powered real-time data.",
+    tech: "Next.js, React, Tailwind CSS, SupaBase",
+    link: "https://uniconnect-platform.onrender.com",
+    image: "/images/uniconnect.jpeg",
+  },
+  {
     name: "Wonders in the Wind",
     desc: "An interactive web experience showcasing the seven wonders of the world with dynamic animations and responsive design to enhance user engagement.",
     tech: "React, Tailwind CSS, Framer Motion",
@@ -29,6 +36,4 @@ const projects = [
   },
 ];
 
-
 export default projects;
-
