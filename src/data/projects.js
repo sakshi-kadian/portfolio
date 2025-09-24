@@ -1,9 +1,16 @@
 const projects = [
   {
+    name: "Aurvia",
+    desc: "A community networking platform connecting students and club admins, enabling personalized experiences with secure role-based access.",
+    tech: "Next.js, React, Tailwind CSS, SupaBase",
+    link: "https://aurvia.onrender.com",
+    image: "/images/aurvia.jpeg",
+  },
+  {
     name: "UniConnect",
     desc: "A responsive web app helping students discover universities worldwide, with dynamic search, filters, sorting, and Supabase-powered real-time data.",
     tech: "Next.js, React, Tailwind CSS, SupaBase",
-    link: "https://uniconnect-platform.onrender.com",
+    link: "https://uniatlas-platform.onrender.com",
     image: "/images/uniconnect.jpeg",
   },
   {
@@ -18,7 +25,7 @@ const projects = [
     desc: "A curated multi-vendor marketplace with buyer and seller flows, built using the MERN stack for seamless e-commerce experiences.",
     tech: "React, Tailwind CSS, Node.js, Express, MongoDB Atlas",
     link: "https://wishique.onrender.com",
-    image: "/images/wishique.jpeg", 
+    image: "/images/wishique.jpeg",
   },
   {
     name: "DreamyBlog",
