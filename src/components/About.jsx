@@ -14,7 +14,7 @@ const About = () => {
 
         {/* Text */}
         <div>
-          <h2 className="text-4xl font-semibold mb-6 text-[#8C5D5D] text-center md:text-left">
+          <h2 className="text-5xl font-semibold mb-6 text-[#8C5D5D] text-center md:text-left">
             ABOUT ME
           </h2>
           <p className="text-base leading-relaxed text-[#E2E2E2] text-center md:text-left">

@@ -53,7 +53,7 @@ const Skills = () => {
       className="bg-black text-white py-20 px-6 sm:px-8"
     >
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-semibold mb-10 text-[#8C5D5D]">
+        <h2 className="text-5xl font-semibold mb-10 text-[#8C5D5D]">
           MY SKILLS
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
