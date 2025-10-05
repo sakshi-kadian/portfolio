@@ -7,7 +7,7 @@ const projects = [
     image: "/images/aurvia.jpeg",
   },
   {
-    name: "UniConnect",
+    name: "UniAtlas",
     desc: "A responsive web app helping students discover universities worldwide, with dynamic search, filters, sorting, and Supabase-powered real-time data.",
     tech: "Next.js, React, Tailwind CSS, SupaBase",
     link: "https://uniatlas-platform.onrender.com",
