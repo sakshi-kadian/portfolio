@@ -13,58 +13,85 @@ import {
   SiMysql,
   SiMongodb,
   SiTailwindcss,
-  SiJquery, 
+  SiJquery,
   SiMui,
   SiFramer,
-  SiPostman,  
-  SiPostgresql,  
+  SiPostman,
+  SiPostgresql,
   SiCanva,
   SiFigma,
   SiPython,
+  SiAuth0,
 } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const skills = [
-  { icon: <FaHtml5 style={{ color: "#E34F26" }} />, label: "HTML" },
-  { icon: <FaCss3Alt style={{ color: "#1572B6" }} />, label: "CSS" },
-  { icon: <SiJavascript style={{ color: "#F7DF1E" }} />, label: "JavaScript" },
-  { icon: <SiTypescript style={{ color: "#3178C6" }} />, label: "TypeScript" },
-  { icon: <FaReact style={{ color: "#61DAFB" }} />, label: "React" },
-  { icon: <SiNextdotjs style={{ color: "#000000" }} />, label: "Next.js" },
-  { icon: <FaNodeJs style={{ color: "#339933" }} />, label: "Node.js" },
-  { icon: <SiExpress style={{ color: "#FFFFFF" }} />, label: "Express.js" },
-  { icon: <SiMysql style={{ color: "#00758F" }} />, label: "MySQL" },
-  { icon: <SiMongodb style={{ color: "#47A248" }} />, label: "MongoDB" },
-  { icon: <SiTailwindcss style={{ color: "#38B2AC" }} />, label: "Tailwind" },
-  { icon: <FaBootstrap style={{ color: "#7952B3" }} />, label: "Bootstrap" },
-  { icon: <SiJquery style={{ color: "#0769AD" }} />, label: "jQuery" }, // ✅ Fixed
-  { icon: <SiMui style={{ color: "#007FFF" }} />, label: "Material UI" },
-  { icon: <SiFramer style={{ color: "#0055FF" }} />, label: "Framer Motion" },
-  { icon: <SiPostman style={{ color: "#FF6C37" }} />, label: "Postman" },
-  { icon: <SiPostgresql style={{ color: "#336791" }} />, label: "PostgreSQL" },
-  { icon: <SiCanva style={{ color: "#00C4CC" }} />, label: "Canva" },
-  { icon: <SiFigma style={{ color: "#F24E1E" }} />, label: "Figma" },
-  { icon: <SiPython style={{ color: "#3776AB" }} />, label: "Python" },
+  { icon: <FaHtml5 />, label: "HTML", color: "#E34F26" },
+  { icon: <FaCss3Alt />, label: "CSS", color: "#1572B6" },
+  { icon: <SiJavascript />, label: "JavaScript", color: "#F7DF1E" },
+  { icon: <SiTypescript />, label: "TypeScript", color: "#3178C6" },
+  { icon: <FaReact />, label: "React", color: "#61DAFB" },
+  { icon: <SiNextdotjs />, label: "Next.js", color: "#ffffff" },
+  { icon: <FaNodeJs />, label: "Node.js", color: "#339933" },
+  { icon: <SiExpress />, label: "Express.js", color: "#ffffff" },
+  { icon: <SiMysql />, label: "MySQL", color: "#00758F" },
+  { icon: <SiMongodb />, label: "MongoDB", color: "#47A248" },
+  { icon: <SiTailwindcss />, label: "Tailwind", color: "#38B2AC" },
+  { icon: <FaBootstrap />, label: "Bootstrap", color: "#7952B3" },
+  { icon: <SiJquery />, label: "jQuery", color: "#0769AD" },
+  { icon: <SiMui />, label: "Material UI", color: "#007FFF" },
+  { icon: <SiFramer />, label: "Framer Motion", color: "#0055FF" },
+  { icon: <SiPostman />, label: "Postman", color: "#FF6C37" },
+  { icon: <SiPostgresql />, label: "PostgreSQL", color: "#336791" },
+  { icon: <SiCanva />, label: "Canva", color: "#00C4CC" },
+  { icon: <SiFigma />, label: "Figma", color: "#F24E1E" },
+  { icon: <SiAuth0 />, label: "OAuth 2.0", color: "#EB5424" },
+  { icon: <SiPython />, label: "Python", color: "#3776AB" },
 ];
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className="bg-black text-white py-20 px-6 sm:px-8"
-    >
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-5xl font-semibold mb-10 text-[#8C5D5D]">
-          MY SKILLS
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+    <section id="skills" className="bg-[#050505] text-white py-32 px-6 sm:px-12 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: [0.6, 0.05, 0.01, 0.9] }}
+          className="text-center mb-12"
+        >
+          <span className="block text-sm font-medium tracking-[0.2em] text-[#c084fc] uppercase mb-4">
+            My Palette
+          </span>
+          <h2 className="text-4xl sm:text-5xl font-display font-bold mb-6">
+            Technical <span className="text-[#d8b4fe]">Arsenal</span>
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto text-lg italic">
+            The tools and technologies I use to bring ideas to life.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-6">
           {skills.map((s, i) => (
-            <div
+            <motion.div
               key={i}
-              className="flex flex-col items-center bg-[#1f1f1f] p-5 rounded-xl shadow-md hover:scale-105 transition-transform"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -8, backgroundColor: "rgba(255,255,255,0.08)" }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.08, duration: 0.8, ease: [0.6, 0.05, 0.01, 0.9] }}
+              className="group flex flex-col items-center justify-center p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm transition-all duration-300"
             >
-              <div className="text-4xl mb-2">{s.icon}</div>
-              <span className="text-sm mt-1">{s.label}</span>
-            </div>
+              <div
+                className="text-4xl mb-4 transition-transform duration-300 group-hover:scale-110"
+                style={{ color: s.color }}
+              >
+                {s.icon}
+              </div>
+              <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">
+                {s.label}
+              </span>
+            </motion.div>
           ))}
         </div>
       </div>

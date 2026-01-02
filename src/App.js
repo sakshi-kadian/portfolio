@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './components/Header';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -9,8 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-black text-white min-h-screen">
-      <Header />
+    <div className="bg-[#050505] text-white min-h-screen">
       <Hero />
       <Skills />
       <Projects />

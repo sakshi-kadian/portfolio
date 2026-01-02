@@ -1,5 +1,26 @@
 const projects = [
   {
+    name: "Resona",
+    desc: "A machine learning system for music taste profiling that models user listening behavior using K-Means clustering, hybrid recommendation algorithms, and temporal evolution analysis to generate personalized insights.",
+    tech: "Python, FastAPI, scikit-learn, NumPy, Pandas, TypeScript, Spotify API, OAuth 2.0",
+    link: "https://resona-intelligence.vercel.app",
+    image: "/images/resona.png",
+  },
+  {
+    name: "HealthScope",
+    desc: "A machine learning–based health risk analysis system that evaluates chronic condition risk markers from structured clinical and lifestyle data using supervised learning models and interpretable analytics.",
+    tech: "Python, FastAPI, scikit-learn, XGBoost, SHAP, Next.js",
+    link: "https://healthscope-analytics.vercel.app",
+    image: "/images/healthscope.png",
+  },
+  {
+    name: "Serenia",
+    desc: "An AI-powered mental wellness system that uses transformer-based NLP models to detect emotions and anxiety from conversations, track emotional trajectories over time, and provide context-aware, safety-focused support.",
+    tech: "Python, FastAPI, PyTorch, Hugging Face Transformers (RoBERTa, BART), Google Gemini API, PostgreSQL, Next.js",
+    link: "https://serenia-platform.vercel.app",
+    image: "/images/serenia.png",
+  },
+  {
     name: "Aurvia",
     desc: "A community networking platform connecting students and club admins, enabling personalized experiences with secure role-based access.",
     tech: "Next.js, React, Tailwind CSS, SupaBase",
