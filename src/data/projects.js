@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Serenia",
     desc: "An AI-powered mental wellness system that uses transformer-based NLP models to detect emotions and anxiety from conversations, track emotional trajectories over time, and provide context-aware, safety-focused support.",
-    tech: "Python, FastAPI, PyTorch, Hugging Face Transformers (RoBERTa, BART), Google Gemini API, PostgreSQL, Next.js",
+    tech: "Python, FastAPI, PyTorch, Hugging Face Transformers (RoBERTa, BART), PostgreSQL, Next.js",
     link: "https://serenia-platform.vercel.app",
     image: "/images/serenia.png",
   },
