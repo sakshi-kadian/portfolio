@@ -1,5 +1,33 @@
 const projects = [
   {
+    name: "Alchemy",
+    desc: "A toxicity-aware graph diffusion model for oncology drug discovery. Generates novel molecular structures with 85%+ validity while enforcing real-time safety constraints through a neuro-symbolic knowledge graph pipeline that filters high-risk substructures.",
+    tech: "Python, PyTorch Geometric, NetworkX, BioBERT, RDKit, ChEMBL, FastAPI, React Three Fiber",
+    link: "https://alchemy-discovery.vercel.app",
+    image: "/images/alchemy.png",
+  },
+  {
+    name: "Aurelius",
+    desc: "A neuro-symbolic reasoning engine that eliminates LLM hallucinations through hybrid RAG architecture. Combines vector embeddings with Neo4j graph traversal for multi-hop reasoning, featuring a 3D 'Golden Beam' visualization for full auditability of AI decision paths.",
+    tech: "Python, FastAPI, Neo4j, ChromaDB, Llama 3.1 (Ollama), Next.js, React Three Fiber, Docker",
+    link: "https://aurelius-engine.vercel.app",
+    image: "/images/aurelius.png",
+  },
+  {
+    name: "Celestine",
+    desc: "An immersive digital flagship for a jewellery brand, blending interactive 3D artistry with ethereal, seamless editorial transitions to capture the ephemeral beauty of gemstones.",
+    tech: "React, Three.js, React Three Fiber, Framer Motion, WebGL",
+    link: "https://celestine-jewelry.vercel.app",
+    image: "/images/celestine.png",
+  },
+  {
+    name: "Tristella Studio",
+    desc: "The official digital presence for Tristella Studio, a creative agency specializing in web experiences. This project showcases a refined 'Champagne & Starlight' aesthetic and a focus on digital storytelling.",
+    tech: "Next.js, React, TypeScript, Tailwind CSS, Framer Motion, Lenis",
+    link: "https://tristella-studio.vercel.app",
+    image: "/images/studio.jpeg",
+  },
+  {
     name: "Resona",
     desc: "A machine learning system for music taste profiling that models user listening behavior using K-Means clustering, hybrid recommendation algorithms, and temporal evolution analysis to generate personalized insights.",
     tech: "Python, FastAPI, scikit-learn, NumPy, Pandas, TypeScript, Spotify API, OAuth 2.0",
