@@ -81,9 +81,9 @@ const About = () => {
                 className="p-4 rounded-xl bg-white/[0.03] border border-white/10 hover:border-[#c084fc]/30 transition-colors"
               >
                 <div className="h-1.5 w-6 bg-[#c084fc] rounded-full mb-3" />
-                <h4 className="text-white font-semibold mb-1.5 text-sm uppercase tracking-wider">Systems Architecture</h4>
+                <h4 className="text-white font-semibold mb-1.5 text-sm uppercase tracking-wider">AI INFRASTRUCTURE</h4>
                 <p className="text-[13px] text-gray-500 leading-relaxed">
-                  Building high-throughput, distributed backbones that power modern AI at scale.
+                  Architected distributed backbones and high-performance GPU pipelines for advanced computing.
                 </p>
               </motion.div>
 
@@ -92,9 +92,9 @@ const About = () => {
                 className="p-4 rounded-xl bg-white/[0.03] border border-white/10 hover:border-[#d8b4fe]/30 transition-colors"
               >
                 <div className="h-1.5 w-6 bg-[#d8b4fe] rounded-full mb-3" />
-                <h4 className="text-white font-semibold mb-1.5 text-sm uppercase tracking-wider">Geometric Learning</h4>
+                <h4 className="text-white font-semibold mb-1.5 text-sm uppercase tracking-wider">NEURAL RESEARCH</h4>
                 <p className="text-[13px] text-gray-500 leading-relaxed">
-                  Exploring E(3)-equivariant networks and physics-informed models for research.
+                  Engineered geometric learning models and human-centered architectures focused on trust.
                 </p>
               </motion.div>
             </div>
