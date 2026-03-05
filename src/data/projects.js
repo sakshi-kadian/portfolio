@@ -1,17 +1,31 @@
 const projects = [
   {
-    name: "Alchemy",
-    desc: "A toxicity-aware graph diffusion model for oncology drug discovery. Generates novel molecular structures with 85%+ validity while enforcing real-time safety constraints through a neuro-symbolic knowledge graph pipeline that filters high-risk substructures.",
-    tech: "Python, PyTorch Geometric, NetworkX, BioBERT, RDKit, ChEMBL, FastAPI, React Three Fiber",
-    link: "https://alchemy-discovery.vercel.app",
-    image: "/images/alchemy.png",
+    name: "Stellarix",
+    desc: "A high-throughput distributed search kernel engineered in Rust to fuse vector similarity (ANN) with symbolic graph traversals. Achieves sub-50ms retrieval for complex multi-hop queries by embedding a multi-modal database engine and ONNX models directly into process memory to eliminate network I/O overhead.",
+    tech: "Rust, SurrealDB, ONNX, Tokio, WebSockets, Next.js, TypeScript, Kubernetes, Docker, k6",
+    link: "https://github.com/sakshi-kadian/stellarix",
+    image: "/images/stellarix.png",
+  },
+  {
+    name: "Lilith",
+    desc: "A research-grade E(3)-equivariant geometric deep learning engine that simulates N-body physical systems with exact conservation laws. Achieves a 10,000x speedup over numerical solvers via XLA-compiled Hamiltonian Neural Fields and direct GPU dispatch, featuring an interactive WebGL simulation workbench.",
+    tech: "Python, JAX, Haiku, XLA, CUDA, TypeScript, Next.js, React Three Fiber, FastAPI, WebSockets",
+    link: "https://github.com/sakshi-kadian/lilith",
+    image: "/images/lilith.png",
   },
   {
     name: "Aurelius",
     desc: "A neuro-symbolic reasoning engine that eliminates LLM hallucinations through hybrid RAG architecture. Combines vector embeddings with Neo4j graph traversal for multi-hop reasoning, featuring a 3D 'Golden Beam' visualization for full auditability of AI decision paths.",
     tech: "Python, FastAPI, Neo4j, ChromaDB, Llama 3.1 (Ollama), Next.js, React Three Fiber, Docker",
-    link: "https://aurelius-engine.vercel.app",
+    link: "https://github.com/sakshi-kadian/aurelius",
     image: "/images/aurelius.png",
+  },
+  {
+    name: "Alchemy",
+    desc: "A toxicity-aware graph diffusion model for oncology drug discovery. Generates novel molecular structures with 85%+ validity while enforcing real-time safety constraints through a neuro-symbolic knowledge graph pipeline that filters high-risk substructures.",
+    tech: "Python, PyTorch Geometric, NetworkX, BioBERT, RDKit, ChEMBL, FastAPI, React Three Fiber",
+    link: "https://alchemy-discovery.vercel.app",
+    image: "/images/alchemy.png",
   },
   {
     name: "Celestine",
